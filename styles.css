@@ -1,0 +1,54 @@
+h1 {
+    font-size: 32px;
+    text-align: center;
+    color: darkcyan ;
+
+}
+
+h2 {
+    font-size: 24px;
+    color: darkslategray;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2; /* cinza claro */
+    line-height: 1.6;
+    color: #333333; /* cinza escuro para o texto */
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: #F7F7F7;
+    border-left: 4px solid #333333;
+}
+
+table {
+    text-align: center;
+    width: 100%; /* Largura total */
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black; /* Borda preta com espessura de 1px */
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto */
+}
+
+th {
+    background-color: #f8f8f8;
+}
+hr{
+    border: 2px solid black;
+}
+svg {
+    size
+}
