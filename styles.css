@@ -76,3 +76,19 @@ textarea {
     background-color: lightgray;
     padding: 20px;
 }
+.perfil1 {
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right: 1px; /* Espaçamento entre a imagem e o texto */
+}
+.perfil2 {
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right:1px; /* Espaçamento entre a imagem e o texto */
+}
+.perfil11 {
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right: 2px; /* Espaçamento entre a imagem e o texto */
+}
+.perfil22 {
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right: 2px; /* Espaçamento entre a imagem e o texto */
+}
