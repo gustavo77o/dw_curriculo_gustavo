@@ -49,6 +49,30 @@ th {
 hr{
     border: 2px solid black;
 }
-svg {
-    size
+
+textarea {
+    width: 95%;
+    font-style: italic;
+    height: 100px; /* Altura inicial do textarea */
+    resize: both; /* Permitir redimensionamento vertical */
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+
+.selecionavel {
+    user-select: auto; /* Permite seleção */
+}
+
+.nao-selecionavel {
+    user-select: none; /* Impede a seleção */
+}
+.elemento-ativo {
+    pointer-events: auto; /* O elemento responde normalmente aos eventos de ponteiro */
+    background-color: lightblue;
+    padding: 20px;
+}
+.elemento-inativo {
+    pointer-events: none; /* O elemento não responde a eventos de ponteiro */
+    background-color: lightgray;
+    padding: 20px;
 }
