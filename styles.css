@@ -76,19 +76,28 @@ textarea {
     background-color: lightgray;
     padding: 20px;
 }
-.perfil1 {
-    float: left; /* Alinha a imagem à esquerda */
-    margin-right: 1px; /* Espaçamento entre a imagem e o texto */
+
+.perfil{
+    display: flex;
+    justify-content:row;
+    align-items: center;
 }
-.perfil2 {
-    float: left; /* Alinha a imagem à esquerda */
-    margin-right:1px; /* Espaçamento entre a imagem e o texto */
+.desespero{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
-.perfil11 {
-    float: left; /* Alinha a imagem à esquerda */
-    margin-right: 2px; /* Espaçamento entre a imagem e o texto */
+.imagem{
+    display: flex;
+    justify-content:row;
+    align-items: center;
 }
-.perfil22 {
-    float: left; /* Alinha a imagem à esquerda */
-    margin-right: 2px; /* Espaçamento entre a imagem e o texto */
+.direcao{
+    display: flex;
+    justify-content:row;
+    align-items: center;
+ 
+ 
 }
