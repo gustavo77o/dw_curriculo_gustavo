@@ -1,17 +1,41 @@
-h1 {
-    font-size: 32px;
-    text-align: center;
-    color: darkcyan ;
+@font-face {
+    font-family: bold;
+    src: url('font/bold.ttf') format('bold'); /* bold */
 
+}
+.inicio {
+    text-align: center;
+    width: 100%;
+    background-color: #212b2ec7;
+    text-align: center;
+}
+.inicio1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4d4d4;
+    font-size: 12px;
+
+}
+h1 {
+    font-size: 40px;
+    font-family: bold;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: #d4d4d4;
 }
 
 h2 {
+    font-family: bold;
     font-size: 24px;
-    color: darkslategray;
+    color: rgb(25, 53, 53);
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:bold, sans-serif;
     background-color: #F2F2F2; /* cinza claro */
     line-height: 1.6;
     color: #333333; /* cinza escuro para o texto */
@@ -89,15 +113,23 @@ textarea {
     justify-content: center;
     align-items: end;
 }
-.imagem{
+.imagens{
     display: flex;
     justify-content:row;
     align-items: center;
+    width: 20px;
+    height: 20px;
 }
 .direcao{
     display: flex;
     justify-content:row;
     align-items: center;
- 
- 
+}
+.imagens1{
+    width: 46px; /* Largura desejada */
+    height: 46px; /* Altura desejada */
+}
+.imagens2{
+    width: 50px; /* Largura desejada */
+    height: 50px; /* Altura desejada */
 }
